@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=McLaren|Monsterrat&display=swap");
+body{
+    background-color: whitesmoke;
+    
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    font-family: 'McLaren';
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    background-color: hsl(50, 100%, 50%);
+    padding: 20px 0px 10px 30px;
+    margin: 0px;
+    height: auto;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.notes{
+    margin : 20px 0px 0px 40px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    /* shadow border */
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    padding: 0px 50px 0px 10px;
+    line-height: 3vh;
+}
+.footer{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:grey;
+    padding: 20px 0px 10px 30px;
+    margin: 0px;
+    height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.abs{
+    font-weight: 600;
+    color: #000;
+}
+
+.def{
+    color: #47494a;
+}
